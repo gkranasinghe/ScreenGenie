@@ -1,0 +1,8 @@
+stages:
+  - lint
+  - test
+
+lint:
+  stage: lint
+  script:
+    - poetry run flake8 .

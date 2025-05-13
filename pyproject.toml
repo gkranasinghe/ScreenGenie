@@ -1,0 +1,7 @@
+[tool.poetry]
+name = "screengenie"
+version = "0.1.0"
+description = "Context-aware assistant"
+
+[tool.poetry.dependencies]
+python = "^3.10"

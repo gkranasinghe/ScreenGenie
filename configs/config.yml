@@ -1,0 +1,4 @@
+ocr:
+  language: "eng"
+llm:
+  model_path: "models/deepseek.bin"
