@@ -1,7 +1,16 @@
 [tool.poetry]
 name = "screengenie"
 version = "0.1.0"
-description = "Context-aware assistant"
+description = "context aware ai assistant"
+authors = ["gayan ranasinghe <gkranasinghe3@gmail.com>"]
+license = "MIT"
+readme = "README.md"
 
 [tool.poetry.dependencies]
-python = "^3.10"
+python = "^3.11"
+ollama = "^0.4.8"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
