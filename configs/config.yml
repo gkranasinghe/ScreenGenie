@@ -1,4 +1,5 @@
 ocr:
   language: "eng"
 llm:
-  model_path: "models/deepseek.bin"
+  model_name: "deepseek-coder:6.7b"
+  max_tokens: 200
