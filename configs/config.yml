@@ -1,5 +1,8 @@
 ocr:
   language: "eng"
+  region: [100, 100, 800, 600]  # Optional; tweak this
 llm:
   model_name: "deepseek-coder:6.7b"
   max_tokens: 200
+screenshots:
+  path: "/mnt/c/Users/pc/Pictures/Screenshots"
